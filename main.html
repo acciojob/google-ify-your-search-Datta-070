@@ -1,12 +1,99 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+        .navbar {
+            background-color: #4285f4;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-  <body>
-    <!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .search-input {
+            padding: 10px;
+            width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .search-btn {
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .footer-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-left a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">Google</a>
+        <button>Sign in</button>
+    </div>
+
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search Google">
+        <button class="search-btn">Google Search</button>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <span>India</span>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-right">
+            <!-- Right section of footer (if any) can be added here -->
+        </div>
+    </div>
+</body>
 </html>
